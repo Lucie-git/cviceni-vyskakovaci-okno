@@ -28,3 +28,44 @@ button {
 }
 
 /* sem přijdou tvoje styly */
+
+.modal {
+  position: relative;
+  left: 200px;
+}
+
+.ok {
+  position: absolute;
+  bottom: 20px;
+  left: calc(100%/2);
+}
+
+.exit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.pomoc {
+  width: 30vw;
+  height: 10vh;
+  border: 5px solid #900202;
+  background-color: #c80606;
+  border-radius: 10px;
+  font-size: 30px;
+  position: sticky;
+  left: 70vw;
+  bottom: 5vh;
+}
+
+.up {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+
+.help {
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+}
